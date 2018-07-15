@@ -1,4 +1,5 @@
 import Vapor
+import SwiftChatCore
 
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
@@ -8,8 +9,8 @@ public func routes(_ router: Router) throws {
     }
 
     // Example of configuring a controller
-    let todoController = TodoController()
-    router.get("todos", use: todoController.index)
-    router.post("todos", use: todoController.create)
-    router.delete("todos", Todo.parameter, use: todoController.delete)
+    let messageController = MessageController()
+    router.get("messages", use: messageController.index)
+    router.post("messages", use: messageController.create)
+    router.delete("messages", Message.parameter, use: messageController.delete)
 }

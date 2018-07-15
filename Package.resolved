@@ -146,6 +146,15 @@
         }
       },
       {
+        "package": "SwiftChatCore",
+        "repositoryURL": "https://github.com/cardoso/SwiftChatCore",
+        "state": {
+          "branch": null,
+          "revision": "d860d902f147beedcffbd1267375cc334a88d3ab",
+          "version": "1.0.3"
+        }
+      },
+      {
         "package": "TemplateKit",
         "repositoryURL": "https://github.com/vapor/template-kit.git",
         "state": {
